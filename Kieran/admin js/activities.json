@@ -1,0 +1,1044 @@
+[
+    {
+        "refs":{
+            "types": {
+                "fr": ["balade", "nature", "histoire", "fête", "art", "culture", "architecture", "patrimoine-historique", "espace public","musique","voie lente","sport","course à pied"],
+                "en": ["walk", "nature", "history", "party", "art", "culture", "architecture", "cultural heritage", "public space","music","slow way","sport","running"],
+                "nl": ["wandeling", "natuur", "geschiedenis", " feest", "kunst", "cultuur", "architectuur", "historisch erfgoed", "openbare ruimte","muziek","trage wegen","sport","lopen"]
+            },
+            "dates":{"fr":["vendredi 13 octobre","samedi 14 octobre","dimanche 15 octobre"],
+                    "en":["fryday 13 october","saturday 14 october","sunday 15 october"],
+                    "nl":["vrijdag 13 oktober","zaterdag 14 oktober","zondag 15 oktober"]
+                },
+            "locationtexte":{
+                "name":{
+                    "fr":"nom",
+                    "en":"name",
+                    "nl":"naam"
+                },
+                "adress":{
+                    "numero":{
+                        "fr":"numéro",
+                        "en":"number",
+                        "nl":"nummer"
+                    },
+                    "street":{
+                        "fr":"rue",
+                        "en":"street",
+                        "nl":"straat"
+                    },
+                    "town":{
+                        "fr":"ville",
+                        "en":"town",
+                        "nl":"stad"
+                    },
+                    "postcode":{    
+                        "fr":"code postal",
+                        "en":"postcode",
+                        "nl":"postcode"
+                    },
+                    "lieudit":{
+                        "fr":"lieudit",
+                        "en":"lieudit",
+                        "nl":"lieudit"
+                    }
+
+                },
+                "coordonates":{
+                    "latitude":{
+                    "fr":"latitude",
+                    "en":"latitude",
+                    "nl":"breedte"
+                     },
+                     "longitude":{
+                        "fr":"longitude",
+                        "en":"longitude",
+                        "nl":"lengte"
+                    }
+                }
+            },
+            "public":[{"fr":["Tout public", "enfants", "adultes"]},{"en":["all", "children", "adult"]},{"nl":["enderen", "kinderen", "adult"]}],
+            "language":["none","nederland", "french", "english"],
+            "infosPratiques":{
+                "fr":"Infos pratiques",
+                "en":"Practical info",
+                "nl":"Praktische info"
+                },
+            "price":{
+                "fr":"Prix",
+                "en":"Price",
+                "nl":"Prijs"
+            },
+            "activitesprestexte":{
+                "fr": "Langue de l'activité : ",
+                "nl": "Taal van de activiteit : ",
+                "en": "Language of the activity : "
+            },
+            "organiser":{
+                "fr":"Organisateur : ",
+                "en":"Organiser : ",
+                "nl":"Organisator : "
+            },
+            "reservation":{
+                "fr":["Réservation obligatoire","oui","non"],
+                "en":["Reservation mandatory","Yes","No"],
+                "nl":["Reservatie verplicht","Ja","Nee"]
+            },
+            "mainmenu":{
+                "fr":"Menu principal",
+                "en":"Main page",
+                "nl":"Hoofdmenu"
+            }
+        }
+    },
+
+    {"activities":
+        [
+            {
+                "id":"01",
+                "title":"Parcours conté de Tour & Taxis à Bockstael",
+                "description":{
+                    "nl":"Qui a dit que le chemin le plus court était celui tracé par la nature ? La nature profite des interstices et suit des sentes tortueuses, recherchant tantôt l'ombre et tantôt le soleil. Qui va lentement va sûrement. Pour éviter le danger, pour profiter du moment, pour ne pas aller quelque part, mais ailleurs ; il faut prendre le rallongi qui serpente vers la liberté. Vous êtes pressé·es ? Faites un détour !",
+                    "fr":"Qui a dit que le chemin le plus court était celui tracé par la nature ? La nature profite des interstices et suit des sentes tortueuses, recherchant tantôt l'ombre et tantôt le soleil. Qui va lentement va sûrement. Pour éviter le danger, pour profiter du moment, pour ne pas aller quelque part, mais ailleurs ; il faut prendre le rallongi qui serpente vers la liberté. Vous êtes pressé·es ? Faites un détour !",
+                    "en":"Qui a dit que le chemin le plus court était celui tracé par la nature ? La nature profite des interstices et suit des sentes tortueuses, recherchant tantôt l'ombre et tantôt le soleil. Qui va lentement va sûrement. Pour éviter le danger, pour profiter du moment, pour ne pas aller quelque part, mais ailleurs ; il faut prendre le rallongi qui serpente vers la liberté. Vous êtes pressé·es ? Faites un détour !"
+                },
+                "types":[0,1],
+                "dates":[2],
+                "horaire":"15:00",
+                "price":"0",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://www.conteenbalade.be/programme/itineraire-bis/"
+                },
+                "illustration":"01-baladeconte-passage.jpg",
+                
+                "duration":"around hh/mm",
+                "organisateur":{
+                    "name":"Conte en balade",
+                    "link":"https://www.conteenbalade.be/"
+                    },
+                "location":{
+                    "nom":"Laeken",
+                    "adress":{
+                        "number":"86C",
+                        "street":"Parc Tour et Taxis",
+                        "town":"Laeken",
+                        "postcode":"1020",
+                        "lieudit":"Entrée du Parc Tour et Taxis"
+                        },
+                    "coordonates":{
+                            "lat": 50.8677651,
+                            "lon": 4.340492
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["fr"]
+            },
+            {
+                "id":"02",
+                "title":"Donderberg, ses chemins vicinaux et de sa riche biodiversité",
+                "description":{
+                    "nl":"Baladez-vous sur des chemins vicinaux centenaires traversant le site du Donderberg, en contrebas des serres du Stuyvenbergh, et provenant de la Donation royale.<br>Découvrez un écrin de nature sauvage, ses arbres -  dont 14 arbres remarquables - et sa prairie, menacés par le projet immobilier de la Ville. Soutenez le collectif qui défend le site.<br>L'évènement se poursuit à Parckfarm jusque 18h.",
+                    "fr":"Baladez-vous sur des chemins vicinaux centenaires traversant le site du Donderberg, en contrebas des serres du Stuyvenbergh, et provenant de la Donation royale.<br>Découvrez un écrin de nature sauvage, ses arbres -  dont 14 arbres remarquables - et sa prairie, menacés par le projet immobilier de la Ville. Soutenez le collectif qui défend le site.<br>L'évènement se poursuit à Parckfarm jusque 18h.",
+                    "en":"Baladez-vous sur des chemins vicinaux centenaires traversant le site du Donderberg, en contrebas des serres du Stuyvenbergh, et provenant de la Donation royale.<br>Découvrez un écrin de nature sauvage, ses arbres -  dont 14 arbres remarquables - et sa prairie, menacés par le projet immobilier de la Ville. Soutenez le collectif qui défend le site.<br>L'évènement se poursuit à Parckfarm jusque 18h."
+                },
+                "types":[0,8],
+                "dates":[2],
+                "horaire":"14:00-16:30",
+                "price":"0",
+                "booking":false,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":""
+                },
+                "illustration":"02-donderberg.jpg",
+                "duration":"around hh/mm",
+                "organisateur":{
+                    "name":"Collectif Save Dondeberg",
+                    "link":"https://www.facebook.com/SaveDonderberg/"
+                    },
+                "location":{
+                    "nom":"Laeken",
+                    "adress":{
+                        "number":"113-115",
+                        "street":"rue des Horticulteurs",
+                        "town":"Laeken",
+                        "postcode":"1020",
+                        "lieudit":"Portail entre les n°s 109 et 115"
+                        },
+                    "coordonates":{
+                            "lat": 50.882481839878594, 
+                            "lon": 4.349757299999999
+                        }
+                },
+                "public":["all"],
+                "language":["fr"]
+            },
+            {
+                "id":"03",
+                "title":"Slow Ways Halloween parade",
+                "description":{
+                    "nl":"Nous vous attendons, déguisés ou non, petits ou grands, pour une promenade à la découverte des voies lentes du quartier et à la recherche des bonbons cachés (chasse au trésors). Après donnerie des déguisements et goûter avec les participants et les menas de Fedasil. Apportez des déguisements et des gateaux, jus... Nous aurons des coloriages pour vous!",
+                    "fr":"Nous vous attendons, déguisés ou non, petits ou grands, pour une promenade à la découverte des voies lentes du quartier et à la recherche des bonbons cachés (chasse au trésors). Après donnerie des déguisements et goûter avec les participants et les menas de Fedasil. Apportez des déguisements et des gateaux, jus... Nous aurons des coloriages pour vous!",
+                    "en":"Nous vous attendons, déguisés ou non, petits ou grands, pour une promenade à la découverte des voies lentes du quartier et à la recherche des bonbons cachés (chasse au trésors). Après donnerie des déguisements et goûter avec les participants et les menas de Fedasil. Apportez des déguisements et des gateaux, jus... Nous aurons des coloriages pour vous!"
+                },
+                "types":[0,3],
+                "dates":[2],
+                "horaire":"14:30-17:30",
+                "price":"0",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://forms.gle/4d56YYTMFVSLgdEc8"
+                },
+                "illustration":"palmiers-eleonore_parade.jpg",
+                "duration":"14h30-17h30",
+                "organisateur":{
+                    "name":"Sous les palmiers d'Eléonore",
+                    "link":"https://www.facebook.com/profile.php?id=100070329783942"
+                    },
+                "location":{
+                    "nom":"Woluwe Saint Pierre",
+                    "adress":{
+                        "number":"80",
+                        "street":"Rue des Palmiers",
+                        "town":"Woluwe Saint Pierre",
+                        "postcode":"1150",
+                        "lieudit":"Sous les Palmiers"
+                        },
+                    "coordonates":{
+                            "lat": 50.82584621305236, 
+                            "lon": 4.40795745288877
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["fr","nl","en"]
+            },
+            {
+                "id":"04",
+                "title":"Visite guidée graffiti",
+                "description":{
+                    "nl":"Fais le Trottoir propose une visite guidée animée par deux personnes dont un artiste. Lors de la balade, ils décodent les signatures, expliquent l’historique et les techniques de travail et les mécanismes propres à ce mouvement.  Au gré du parcours, vous découvrez tags, graff, pochoirs, collages, stickers, fresques murales qui se glissent notamment au détours des passerelles piétonnes, tunnels, raccourcis discrets...",
+                    "fr":"Fais le Trottoir propose une visite guidée animée par deux personnes dont un artiste. Lors de la balade, ils décodent les signatures, expliquent l’historique et les techniques de travail et les mécanismes propres à ce mouvement.  Au gré du parcours, vous découvrez tags, graff, pochoirs, collages, stickers, fresques murales qui se glissent notamment au détours des passerelles piétonnes, tunnels, raccourcis discrets...",
+                    "en":"Fais le Trottoir propose une visite guidée animée par deux personnes dont un artiste. Lors de la balade, ils décodent les signatures, expliquent l’historique et les techniques de travail et les mécanismes propres à ce mouvement.  Au gré du parcours, vous découvrez tags, graff, pochoirs, collages, stickers, fresques murales qui se glissent notamment au détours des passerelles piétonnes, tunnels, raccourcis discrets..."
+                },
+                "types":[0,4],
+                "dates":[2],
+                "horaire":"14:00-15h30",
+                "price":"12",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"visitegraffiti@gmail.com",
+                    "link":""
+                },
+                "illustration":"Visit-graffiti_MIMA.jpg",
+                "Duration":"1h30",
+                "organisateur":{
+                    "name":"Fais le trottoir",
+                    "link":"https://www.faisletrottoir.com/"
+                    },
+                "location":{
+                    "nom":"Molenbeek",
+                    "adress":{
+                        "number":"41",
+                        "street":"Quai du Hainaut",
+                        "town":"Molenbeek",
+                        "postcode":"1080",
+                        "lieudit":"Mima"
+                        },
+                    "coordonates":{
+                            "lat": 50.8509636,
+                            "lon": 4.3354029
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["fr"]
+            },
+            {
+                "id":"05",
+                "title":"7 Walks: WALK #03 – Little rivers together make big streams, the world as a work of art",
+                "description":{
+                    "nl":"7 Walks is een artistiek onderzoekstraject in samenwerking met gastwandelaars en deelnemers. Met wandelen als publieke onderzoeksmethode wil het project in directe relatie met de natuurlijke of stedelijke omgeving, de ecologie van de kunsten verbinden met een natuurlijk gemeengoed - water. Voor nadine ontwikkelen we drie nieuwe wandelingen in Brussel. Het wandelproject zet een dialoog op over concepten als eigendom, publieke goederen en beheer en onderzoekt vormen van redistributie van waarde en mutualisering. Tegelijkertijd onderzoeken we cartografie vanuit een alternatieve pedagogische praktijk. De wandelingen activeren de archiefdocumenten die we presenteren in nadine's tentoonstellingsruimte. Die belichten de rol van anarchist en geograaf Elisée Reclus bij de oprichting van de Université Nouvelle en het Institut des Hautes Etudes, twee nieuwe instellingen die zich presenteerden als radicaal en vernieuwend, in Brussel in 1894. Het Institut Géographique dat Reclus in die institutionele context oprichtte, creëerde globes en 3D-kaarten die voortkwamen uit een kritische en geïntegreerde pedagogie. 2D-kaarten zouden volgens Reclus enkel onderdanen voortbrengen, geen kritische burgers. De grote traditie van het anarchistisch onderwijs zweerde namelijk bij het axioma dat het beste leren gebeurt... via onze voetzolen. We volgen dan ook Élisée Reclus' aanmoediging in zijn boek Histoire d'un Ruisseau om vooraleer enige kaart te raadplegen steeds de dichtstbijzijnde rivier op te zoeken en te leren vanuit de directe observatie van de omgeving. Tijdens de wandelingen bevragen we de donkere kant van cartografie als een infrastructuur van macht en surveillance, iets wat ook zichtbaar wordt in het stedelijk weefsel. We stellen daarbij de vraag of het mogelijk is vanuit een artistieke praktijk die ingebed is in het landschap, een emancipatorisch cartografisch instrument te co-creëren, dat nieuwe verhalen, samenwerkingsverbanden en agency kan genereren?",
+                    "fr":"7 Walks is an artistic research trajectory by the artist duo Vermeir & Heiremans in collaboration with guest walkers and participants. Using walking as a public research method, developing a direct relation with the natural or urban environment, the project aims to connect the ecology of the arts with a natural common good – water.<br>Vermeir & Heiremans are developing three new walks in Brussels for their exhibition in n0dine.<br>On Sunday 15 October, during Slow Ways Weekend, the third walk will take place in Ixelles with guests Tatiana Debroux and Margot Elmer. Note that the guided walk will be held in English.<br>WALK #03 – Little rivers together make big streams, the world as a work of art<br>'This walk focuses on the role of art in society. We walk to the source of the vaulted Maelbeek, near La Cambre Abbey, where Henry Van de Velde founded his Nationale Hoogere School voor Sierkunst in 1926. He started his career influenced by anarchist writings such as Proudhon’s book: Du principe de l’art et de sa destination sociale.<br>The question of the role of art was as alive then as it is today. An international meeting point were this question was addressed was the Université Nouvelle in Brussels, where Elisée Reclus, as well as neo-impressionist artists like Théo Van Rysselberghe, writers like Emile Verhaeren, and also Van de Velde taught.<br>Questions around the autonomy of the artist, the political instrumentalisation of artistic practice, the question of whether new forms of expression in art could be the starting point for a renewal of society were all on the agenda. One of the basic ideas of anarchism, the importance of individual freedom in relation to solidarity was expressed by the neo-impressionists’ divisionism, which was based on science. In the pointillist technique, each point retains its colour and individuality, but to the eye they merge harmoniously.<br>For Elisée Reclus, the true work of art was the world itself, and in his vision of social geography and radical education, with its focus on physical labour and a direct relationship with the environment, these neo-impressionist artists were social reformers whom he engaged for the giant globes and relief maps he wanted to realise in order to reduce the gap between the world and its representations.<br>Elisée Reclus lived close by the lakes of Ixelles, and we just have to cross over to the Abdijstraat where there are still some studios of some of these artists, grouped as Les XX(1883-1893) and later as La Libre Esthétique (1894-1914). The group, of which Anna Boch was the only female artist, played an important role in avant-garde art in Europe.",
+                    "en":"7 Walks is an artistic research trajectory by the artist duo Vermeir & Heiremans in collaboration with guest walkers and participants. Using walking as a public research method, developing a direct relation with the natural or urban environment, the project aims to connect the ecology of the arts with a natural common good – water.<br>Vermeir & Heiremans are developing three new walks in Brussels for their exhibition in n0dine.<br>On Sunday 15 October, during Slow Ways Weekend, the third walk will take place in Ixelles with guests Tatiana Debroux and Margot Elmer. Note that the guided walk will be held in English.<br>WALK #03 – Little rivers together make big streams, the world as a work of art<br>'This walk focuses on the role of art in society. We walk to the source of the vaulted Maelbeek, near La Cambre Abbey, where Henry Van de Velde founded his Nationale Hoogere School voor Sierkunst in 1926. He started his career influenced by anarchist writings such as Proudhon’s book: Du principe de l’art et de sa destination sociale.<br>The question of the role of art was as alive then as it is today. An international meeting point were this question was addressed was the Université Nouvelle in Brussels, where Elisée Reclus, as well as neo-impressionist artists like Théo Van Rysselberghe, writers like Emile Verhaeren, and also Van de Velde taught.<br>Questions around the autonomy of the artist, the political instrumentalisation of artistic practice, the question of whether new forms of expression in art could be the starting point for a renewal of society were all on the agenda. One of the basic ideas of anarchism, the importance of individual freedom in relation to solidarity was expressed by the neo-impressionists’ divisionism, which was based on science. In the pointillist technique, each point retains its colour and individuality, but to the eye they merge harmoniously.<br>For Elisée Reclus, the true work of art was the world itself, and in his vision of social geography and radical education, with its focus on physical labour and a direct relationship with the environment, these neo-impressionist artists were social reformers whom he engaged for the giant globes and relief maps he wanted to realise in order to reduce the gap between the world and its representations.<br>Elisée Reclus lived close by the lakes of Ixelles, and we just have to cross over to the Abdijstraat where there are still some studios of some of these artists, grouped as Les XX(1883-1893) and later as La Libre Esthétique (1894-1914). The group, of which Anna Boch was the only female artist, played an important role in avant-garde art in Europe."
+                },
+                "types":[0,4,5],
+                "dates":[2],
+                "horaire":"14:00-18:00",
+                "price":"0",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"loes@nadine.be",
+                    "link":""
+                },
+                "illustration":"Nadine_7walks.jpg",
+                "duration":"around 4h00",
+                "organisateur":{
+                    "name":"Nadine",
+                    "link":"https://index.nadine.be/"
+                    },
+                "location":{
+                    "nom":"Ixelles",
+                    "adress":{
+                        "number":"217",
+                        "street":"Vleurgatsesteenweg",
+                        "town":"Ixelles",
+                        "postcode":"1050",
+                        "lieudit":"Ten Bosch left side of the India Embassy"
+                        },
+                    "coordonates":{
+                            "lat": 50.82021494930527, 
+                            "lon": 4.366037228835357
+                        }
+                },
+                "public":["all"],
+                "language":["en"]
+            },
+            {
+                "id":"06",
+                "title":"Découverte au sud de Bruxelles",
+                "description":{
+                    "fr":"Le QuartierUnionWijk propose une randonnée de +/- 13km entre Forest et Uccle, y compris une pause pour grignoter un morceau. Le début de la balade sera agrémenté d'un petit parcours découverte dans le quartier Coghen avec l'accent sur les réalisations modernistes de l'architecte Louis Tenaerts. Ces découvertes culturelles seront suivies par une promenade au gré des sentiers, passages et espaces verts de Forest et Uccle. ",
+                    "en":"Le QuartierUnionWijk propose une randonnée de +/- 13km entre Forest et Uccle, y compris une pause pour grignoter un morceau. Le début de la balade sera agrémenté d'un petit parcours découverte dans le quartier Coghen avec l'accent sur les réalisations modernistes de l'architecte Louis Tenaerts. Ces découvertes culturelles seront suivies par une promenade au gré des sentiers, passages et espaces verts de Forest et Uccle. ",
+                    "nl":"Le QuartierUnionWijk propose une randonnée de +/- 13km entre Forest et Uccle, y compris une pause pour grignoter un morceau. Le début de la balade sera agrémenté d'un petit parcours découverte dans le quartier Coghen avec l'accent sur les réalisations modernistes de l'architecte Louis Tenaerts. Ces découvertes culturelles seront suivies par une promenade au gré des sentiers, passages et espaces verts de Forest et Uccle. "
+                },
+                "types":[0,1,6],
+                "dates":[2],
+                "horaire":"10:30-14:00",
+                "price":"0",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://forms.gle/GiLohkPJY7xZL3Ws9"
+                },
+                "illustration":"06-quartierunionwijk_balade-au-sud-complet.jpg",
+                "duration":"around hh/mm",
+                "organisateur":{
+                    "name":"Quartier Union Wijk",
+                    "link":"https://www.facebook.com/groups/655852268592138"
+                    },
+                "location":{
+                    "nom":"Forest",
+                    "adress":{
+                        "number":"314",
+                        "street":"Chaussée de Bruxelles",
+                        "town":"Forest",
+                        "postcode":"1190",
+                        "lieudit":"Entrée Parc Duden"
+                        },
+                    "coordonates":{
+                            "lat": 50.8162,
+                            "lon": 4.3303
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["fr"]
+            },
+            {
+                "id":"07",
+                "title":"Serre-party : célébration du Potajoie.",
+                "description":{
+                    "en":" La 'Serre-Party' annuelle - fête autour de la construction progressive d'une grande serre de quartier - dans le cadre du Slow Ways WE est là pour célébrer le Potajoie comme lieu de passage et de rencontre. Bienvenue à tous, toutes générations confondues et accessible aux PMR. La fête est gratuite vous pouvez librement participer au savoureux buffet garni par les habitants.",
+                    "fr":" La 'Serre-Party' annuelle - fête autour de la construction progressive d'une grande serre de quartier - dans le cadre du Slow Ways WE est là pour célébrer le Potajoie comme lieu de passage et de rencontre. Bienvenue à tous, toutes générations confondues et accessible aux PMR. La fête est gratuite vous pouvez librement participer au savoureux buffet garni par les habitants.",
+                    "nl":" La 'Serre-Party' annuelle - fête autour de la construction progressive d'une grande serre de quartier - dans le cadre du Slow Ways WE est là pour célébrer le Potajoie comme lieu de passage et de rencontre. Bienvenue à tous, toutes générations confondues et accessible aux PMR. La fête est gratuite vous pouvez librement participer au savoureux buffet garni par les habitants."
+                },
+                "types":[3],
+                "dates":[2],
+                "horaire":"13:00",
+                "price":"0",
+                "booking":false,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"http://www.vieux-sainte-anne.be/"
+                },
+                "illustration":"7-sainte_anne-auderghem.jpg",
+                "duration":"around hh/mm",
+                "organisateur":{
+                    "name":"Le quartier du vieux-Sainte Anne",
+                    "link":"http://www.vieux-sainte-anne.be/"
+                    },
+                "location":{
+                    "nom":"Auderghem",
+                    "adress":{
+                        "number":"",
+                        "street":"rue Montagne de Sable",
+                        "town":"Auderghem",
+                        "postcode":"1160",
+                        "lieudit":"Jardin des Villageois Accès par la rue du Villageois 89 ou la chaussée de Wavre 1690"
+                        },
+                    "coordonates":{
+                            "lat": 50.81649595702292, 
+                            "lon": 4.430339681038757
+                        }
+                },
+                "public":["all"],
+                "language":["fr", "en"]
+            },
+            {
+                "id":"08",
+                "title":"Les quartiers de Forest via raccourcis et sentiers",
+                "description":{
+                    "nl":"Op zondag 15 oktober nodigt QuartierWielsWijk je uit om Vorst te ontdekken door via een maximum aan paden en sluiproutes door enkele soms weinig bekende wijken te wandelen. Maak je dus klaar voor een wandeling en een bezoek aan het historisch en stedelijk erfgoed. De bewonersvereniging QuartierWielsWijk promoot sinds 2013 actief het wandelen in de buurt.<br>Vanuit de Sint-Antonius wijk vertrekken we naar de Vroegegroenten - Luttrebrug wijk, aan de hand van een nieuw pad langs het Wielsmoeras. Van daaruit doorkruisen we de Bervoetswijk richting de Missidorwijk om daarna te passeren langs de Groene Vorst tuinwijk. Als je voeten nog steeds meewillen, wandelen we naar de Abdijwijk.<br>Dus een mooie wandeling in het verschiet langs paden en wegeltjes die je misschien nog nooit opgemerkt of gebruikt hebt. De tocht kan enkele uren duren, maar voel je vrij op elk moment te vertrekken.<br>Voorzie zeker eten en drinken om een snackpauze te houden!",
+                    "fr":"Le QuartierWielsWijk vous invite le dimanche 15 octobre à découvrir Forest en reliant, à pied, certains de ses quartiers parfois méconnus via un maximum de sentiers et de raccourcis. <br>C'est donc à la fois une promenade et une visite patrimoniale historique et urbanistique.<br>Le QuartierWielsWijk, association d’habitants, promeut, depuis 2013, le déplacement pédestre local. Nous partirons du quartier Saint-Antoine pour relier le quartier Primeurs Pont de Luttre en passant voir le Marais Wiels via un nouveau sentier. De là nous traverserons le quartier Bervoets pour rejoindre le quartier Messidor que nous quitterons pour rejoindre la Cité-jardin Forest Vert. Si vos pieds en ont encore le courage, nous descendrons vers le quartier de l'abbaye. Tout cela via des chemins et sentiers que vous n'avez peut-être jamais remarqués ou empruntés. Une belle promenade en perspective! Elle peut durer plusieurs heures mais libre à vous de la  quitter à tout moment.<br>Sinon, prévoyez à boire et à manger, nous ferons une pause casse-croûte !",
+                    "en":"Le QuartierWielsWijk vous invite le dimanche 15 octobre à découvrir Forest en reliant, à pied, certains de ses quartiers parfois méconnus via un maximum de sentiers et de raccourcis. <br>C'est donc à la fois une promenade et une visite patrimoniale historique et urbanistique.<br>Le QuartierWielsWijk, association d’habitants, promeut, depuis 2013, le déplacement pédestre local. Nous partirons du quartier Saint-Antoine pour relier le quartier Primeurs Pont de Luttre en passant voir le Marais Wiels via un nouveau sentier. De là nous traverserons le quartier Bervoets pour rejoindre le quartier Messidor que nous quitterons pour rejoindre la Cité-jardin Forest Vert. Si vos pieds en ont encore le courage, nous descendrons vers le quartier de l'abbaye. Tout cela via des chemins et sentiers que vous n'avez peut-être jamais remarqués ou empruntés. Une belle promenade en perspective! Elle peut durer plusieurs heures mais libre à vous de la  quitter à tout moment.<br>Sinon, prévoyez à boire et à manger, nous ferons une pause casse-croûte !"
+                },
+                "types":[0,1,7],
+                "dates":[2],
+                "horaire":"10:30",
+                "price":"0",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"quartierwielswijk@gmail.com",
+                    "link":""
+                },
+                "illustration":"8-marais-wiels.jpg",
+                "duration":"around hh/mm",
+                "organisateur":{
+                    "name":"QuartierWielsWijk",
+                    "link":"http://www.quartierwielswijk.be/"
+                    },
+                "location":{
+                    "nom":"Forest",
+                    "adress":{
+                        "number":"1",
+                        "street":"Rue Pierre Decoster",
+                        "town":"Forest",
+                        "postcode":"1190",
+                        "lieudit":"Place Orban"
+                        },
+                    "coordonates":{
+                            "lat": 50.82579062464042,
+                            "lon":  4.325899934660576
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["fr","nl","en"]
+            },
+            {
+                "id":"09",
+                "title":"Aux marges d'Uccle",
+                "description":{
+                    "nl":"Entre la ville et la campagne, il y a la banlieue, les faubourgs, la périphérie, la deuxième couronne. Ce sont les marges de la ville. Et là où la densité diminue, s’écrit une incroyable diversité, tant de typologies que de milieux sociaux. Y coexistent : des villas luxueuses ou moins, des cités-jardins ou simplement sociales, des lotissements, des immeubles chics ou moins, des alignements de maisons « « bel étage », mais aussi des noyaux villageois. Entre ceux-ci, il y a aussi des espaces non bâtis : zones semi-naturelles, réserves naturelles, parcs, plaines de jeux, friches, potagers, bois et même des terres agricoles. Et pour relier tout ça, des chemins, vicinaux ou non, des rues paisibles, des trottoirs bordés de haies, en pavés, en terre ou en dalles.<br>Dans le cadre du Slow Way Weekend, organisé par Walk.brussels, l’ARAU vous invite à arpenter ces « marges de la ville » à pied, aux confins d’Uccle, de Drogenbos et de Linkebeek.",
+                    "fr":"Entre la ville et la campagne, il y a la banlieue, les faubourgs, la périphérie, la deuxième couronne. Ce sont les marges de la ville. Et là où la densité diminue, s’écrit une incroyable diversité, tant de typologies que de milieux sociaux. Y coexistent : des villas luxueuses ou moins, des cités-jardins ou simplement sociales, des lotissements, des immeubles chics ou moins, des alignements de maisons « « bel étage », mais aussi des noyaux villageois. Entre ceux-ci, il y a aussi des espaces non bâtis : zones semi-naturelles, réserves naturelles, parcs, plaines de jeux, friches, potagers, bois et même des terres agricoles. Et pour relier tout ça, des chemins, vicinaux ou non, des rues paisibles, des trottoirs bordés de haies, en pavés, en terre ou en dalles.<br>Dans le cadre du Slow Way Weekend, organisé par Walk.brussels, l’ARAU vous invite à arpenter ces « marges de la ville » à pied, aux confins d’Uccle, de Drogenbos et de Linkebeek.",
+                    "en":"Entre la ville et la campagne, il y a la banlieue, les faubourgs, la périphérie, la deuxième couronne. Ce sont les marges de la ville. Et là où la densité diminue, s’écrit une incroyable diversité, tant de typologies que de milieux sociaux. Y coexistent : des villas luxueuses ou moins, des cités-jardins ou simplement sociales, des lotissements, des immeubles chics ou moins, des alignements de maisons « « bel étage », mais aussi des noyaux villageois. Entre ceux-ci, il y a aussi des espaces non bâtis : zones semi-naturelles, réserves naturelles, parcs, plaines de jeux, friches, potagers, bois et même des terres agricoles. Et pour relier tout ça, des chemins, vicinaux ou non, des rues paisibles, des trottoirs bordés de haies, en pavés, en terre ou en dalles.<br>Dans le cadre du Slow Way Weekend, organisé par Walk.brussels, l’ARAU vous invite à arpenter ces « marges de la ville » à pied, aux confins d’Uccle, de Drogenbos et de Linkebeek."
+                },
+                "types":[0,1,2],
+                "dates":[2],
+                "horaire":"10:00",
+                "price":"1.25€-12",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://www.arau.org/fr/visites/aux-marges-duccle/"
+                },
+                "illustration":"09-arrau-uccle2.jpg",
+                "duration":"around hh/mm",
+                "organisateur":{
+                    "name":"ARAU",
+                    "link":"https://www.arau.org/fr/"
+                    },
+                "location":{
+                    "nom":"Uccle",
+                    "adress":{
+                        "number":"1155",
+                        "street":"Chaussée d'Alsemberg",
+                        "town":"Uccle",
+                        "postcode":"1180",
+                        "lieudit":"Devant la friterie du « Bourdon » au coin des chaussées d’Alsemberg et de Drogenbos"
+                        },
+                    "coordonates":{
+                            "lat": 50.78799023412998, 
+                            "lon":  4.330162454775204
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["fr"]
+            },
+            {
+                "id":"10",
+                "title":"25 voorstellen voor de toekomst van het Ter Kamerenbos",
+                "description":{
+                    "nl":"Sinds 2020 hebben het Ter Kamerenbos, de sluiting ervan voor autoverkeer tijdens de pandemie en de gevolgen van deze beslissing veel aandacht gekregen in de pers, op sociale netwerken en in de publieke arena. ARAU steunt het vooruitzicht van een autovrij bos, ten gunste van zijn functie als groene ruimte en de diensten die het levert aan de (menselijke) wezens die er gebruik van maken!<br>ARAU heeft in en rond het Ter Kamerenbos een parcours uitgestippeld met 25 voorstellen om het gebruik van het bos te verbeteren, evenals de manier waarop mensen er zich in en rondom het park verplaatsen (terugkeer van een tram op de Waterloolaan, herstel van de verbinding tussen het bos en de Louizalaan), en niet te vergeten de meer politieke vraag over het beheer van een site van regionaal belang.<br>Deze wandelreflectie vindt plaats in het kader van de Dag van het Zoniënwoud.",
+                    "fr":"Sinds 2020 hebben het Ter Kamerenbos, de sluiting ervan voor autoverkeer tijdens de pandemie en de gevolgen van deze beslissing veel aandacht gekregen in de pers, op sociale netwerken en in de publieke arena. ARAU steunt het vooruitzicht van een autovrij bos, ten gunste van zijn functie als groene ruimte en de diensten die het levert aan de (menselijke) wezens die er gebruik van maken!<br>ARAU heeft in en rond het Ter Kamerenbos een parcours uitgestippeld met 25 voorstellen om het gebruik van het bos te verbeteren, evenals de manier waarop mensen er zich in en rondom het park verplaatsen (terugkeer van een tram op de Waterloolaan, herstel van de verbinding tussen het bos en de Louizalaan), en niet te vergeten de meer politieke vraag over het beheer van een site van regionaal belang.<br>Deze wandelreflectie vindt plaats in het kader van de Dag van het Zoniënwoud.",
+                    "en":"Sinds 2020 hebben het Ter Kamerenbos, de sluiting ervan voor autoverkeer tijdens de pandemie en de gevolgen van deze beslissing veel aandacht gekregen in de pers, op sociale netwerken en in de publieke arena. ARAU steunt het vooruitzicht van een autovrij bos, ten gunste van zijn functie als groene ruimte en de diensten die het levert aan de (menselijke) wezens die er gebruik van maken!<br>ARAU heeft in en rond het Ter Kamerenbos een parcours uitgestippeld met 25 voorstellen om het gebruik van het bos te verbeteren, evenals de manier waarop mensen er zich in en rondom het park verplaatsen (terugkeer van een tram op de Waterloolaan, herstel van de verbinding tussen het bos en de Louizalaan), en niet te vergeten de meer politieke vraag over het beheer van een site van regionaal belang.<br>Deze wandelreflectie vindt plaats in het kader van de Dag van het Zoniënwoud."
+                },
+                "types":[0,8],
+                "dates":[2],
+                "horaire":"10:00-12:30",
+                "price":"0",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://www.arau.org/fr/visites/25-voorstellen-voor-de-toekomst-van-het-terkamerenbos/"
+                },
+                "illustration":"10-arau-bois-de-lacambre.jpg",
+                "duration":"around hh/mm",
+                "organisateur":{
+                    "name":"Arau",
+                    "link":"https://www.arau.org/fr/"
+                    },
+                "location":{
+                    "nom":"",
+                    "adress":{
+                        "number":"55",
+                        "street":"Terhulpensesteenweg",
+                        "town":"Ukkel",
+                        "postcode":"1180",
+                        "lieudit":"Voor het torentje naast het retaurant Woodpecker"
+                        },
+                    "coordonates":{
+                            "lat":50.796381101136966, 
+                            "lon": 4.396720811772421
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["nl"]
+            },
+            {
+                "id":"11",
+                "title":"Réécriture de l'histoire dans le quartier du Sablon",
+                "description":{
+                    "nl":"Autour du Sablon, plusieurs bâtiments illustrent la réinterprétation libre et éclectique des styles du passé qu’eurent les architectes de la fin du XIXe et du XXe siècle. Vous découvrirez ainsi sous un regard différent, les Musées Royaux des Beaux-Arts, le conservatoire de musique, le square du Petit Sablon et diverses maisons particulières sur la Place du Grand Sablon.La restauration de l’église Notre-Dame du Sablon sera bien entendu évoquée. Un cas d’école pour les adeptes des idées de Viollet-le-Duc que furent Auguste Schoy, Jules-Jacques Van Ysendyck et son fils Maurice Van Ysendyck !",
+                    "fr":"Autour du Sablon, plusieurs bâtiments illustrent la réinterprétation libre et éclectique des styles du passé qu’eurent les architectes de la fin du XIXe et du XXe siècle. Vous découvrirez ainsi sous un regard différent, les Musées Royaux des Beaux-Arts, le conservatoire de musique, le square du Petit Sablon et diverses maisons particulières sur la Place du Grand Sablon.La restauration de l’église Notre-Dame du Sablon sera bien entendu évoquée. Un cas d’école pour les adeptes des idées de Viollet-le-Duc que furent Auguste Schoy, Jules-Jacques Van Ysendyck et son fils Maurice Van Ysendyck !",
+                    "en":"Autour du Sablon, plusieurs bâtiments illustrent la réinterprétation libre et éclectique des styles du passé qu’eurent les architectes de la fin du XIXe et du XXe siècle. Vous découvrirez ainsi sous un regard différent, les Musées Royaux des Beaux-Arts, le conservatoire de musique, le square du Petit Sablon et diverses maisons particulières sur la Place du Grand Sablon.La restauration de l’église Notre-Dame du Sablon sera bien entendu évoquée. Un cas d’école pour les adeptes des idées de Viollet-le-Duc que furent Auguste Schoy, Jules-Jacques Van Ysendyck et son fils Maurice Van Ysendyck !"
+                },
+                "types":[0,2],
+                "dates":[1],
+                "horaire":"14:00-15:30",
+                "price":"12",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://arkadia.be/fr/node/5661"
+                },
+                "illustration":"Arkadia_Sablon.jpg",
+                "duration":"1h30",
+                "organisateur":{
+                    "name":"Arkadia",
+                    "link":"https://arkadia.be/"
+                    },
+                "location":{
+                    "nom":"Bruxelles-ville",
+                    "adress":{
+                        "number":"66",
+                        "street":"Coudenberg",
+                        "town":"Bruxelles-ville",
+                        "postcode":"1000",
+                        "lieudit":"Ancienne pharmacie Delacre /pharmacie anglaise"
+                        },
+                    "coordonates":{
+                            "lat": 50.84343596316072,
+                            "lon": 4.358740665349831
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["fr"]
+            },
+            {
+                "id":"12",
+                "title":"L'ancien cinéma le Movy Club",
+                "description":{
+                    "nl":"Autour du Sablon, plusieurs bâtiments illustrent la réinterprétation libre et éclectique des styles du passé qu’eurent les architectes de la fin du XIXe et du XXe siècle. Vous découvrirez ainsi sous un regard différent, les Musées Royaux des Beaux-Arts, le conservatoire de musique, le square du Petit Sablon et diverses maisons particulières sur la Place du Grand Sablon.La restauration de l’église Notre-Dame du Sablon sera bien entendu évoquée. Un cas d’école pour les adeptes des idées de Viollet-le-Duc que furent Auguste Schoy, Jules-Jacques Van Ysendyck et son fils Maurice Van Ysendyck !",
+                    "fr":"Autour du Sablon, plusieurs bâtiments illustrent la réinterprétation libre et éclectique des styles du passé qu’eurent les architectes de la fin du XIXe et du XXe siècle. Vous découvrirez ainsi sous un regard différent, les Musées Royaux des Beaux-Arts, le conservatoire de musique, le square du Petit Sablon et diverses maisons particulières sur la Place du Grand Sablon.La restauration de l’église Notre-Dame du Sablon sera bien entendu évoquée. Un cas d’école pour les adeptes des idées de Viollet-le-Duc que furent Auguste Schoy, Jules-Jacques Van Ysendyck et son fils Maurice Van Ysendyck !",
+                    "en":"Autour du Sablon, plusieurs bâtiments illustrent la réinterprétation libre et éclectique des styles du passé qu’eurent les architectes de la fin du XIXe et du XXe siècle. Vous découvrirez ainsi sous un regard différent, les Musées Royaux des Beaux-Arts, le conservatoire de musique, le square du Petit Sablon et diverses maisons particulières sur la Place du Grand Sablon.La restauration de l’église Notre-Dame du Sablon sera bien entendu évoquée. Un cas d’école pour les adeptes des idées de Viollet-le-Duc que furent Auguste Schoy, Jules-Jacques Van Ysendyck et son fils Maurice Van Ysendyck !"
+                },
+                "types":[0,5],
+                "dates":[1],
+                "horaire":"14:00-15:30",
+                "price":"12",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://arkadia.be/fr/node/11547"
+                },
+                "illustration":"Arkadia_cinemaMovy.jpg",
+                "duration":"1h30",
+                "organisateur":{
+                    "name":"Arkadia",
+                    "link":"https://arkadia.be/"
+                    },
+                "location":{
+                    "nom":"Forest",
+                    "adress":{
+                        "number":"21",
+                        "street":"rue des Moines",
+                        "town":"Forest",
+                        "postcode":"1190",
+                        "lieudit":"Devant l'entrée du cinéma Le Movy Club"
+                        },
+                    "coordonates":{
+                            "lat": 50.82744017385418,
+                            "lon": 4.331915884657388
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["fr"]
+            },
+            {
+                "id":"13",
+                "title":"Passage de Bruxelles : une idée lumineuse",
+                "description":{
+                    "nl":"Bruxelles comptera jusqu'à 50 passages couverts dans les années 1850 et exportera le modèle vers plusieurs autres villes de Belgique. Inaugurées en 1847, les Galeries Royales Saint-Hubert sont parmi les plus anciennes d'Europe. Ces passages abritaient des intempéries une clientèle aisée et leur proposaient des sorties au théâtre, cinéma, restaurant et un accès à des commerces variés. Nous allons parcourir l'histoire de trois de ces passages dont chacun dégage une lumière, une poésie et une nostalgie particulière.",
+                    "fr":"Bruxelles comptera jusqu'à 50 passages couverts dans les années 1850 et exportera le modèle vers plusieurs autres villes de Belgique. Inaugurées en 1847, les Galeries Royales Saint-Hubert sont parmi les plus anciennes d'Europe. Ces passages abritaient des intempéries une clientèle aisée et leur proposaient des sorties au théâtre, cinéma, restaurant et un accès à des commerces variés. Nous allons parcourir l'histoire de trois de ces passages dont chacun dégage une lumière, une poésie et une nostalgie particulière.",
+                    "en":"Bruxelles comptera jusqu'à 50 passages couverts dans les années 1850 et exportera le modèle vers plusieurs autres villes de Belgique. Inaugurées en 1847, les Galeries Royales Saint-Hubert sont parmi les plus anciennes d'Europe. Ces passages abritaient des intempéries une clientèle aisée et leur proposaient des sorties au théâtre, cinéma, restaurant et un accès à des commerces variés. Nous allons parcourir l'histoire de trois de ces passages dont chacun dégage une lumière, une poésie et une nostalgie particulière."
+                },
+                "types":[0,2],
+                "dates":[1],
+                "horaire":"11:00-12:30",
+                "price":"12",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://arkadia.be/fr/visites/passages-de-bruxelles-une-id-e-lumineuse-bbea"
+                },
+                "illustration":"Arkadia_galeries.jpg",
+                "duration":"1h30",
+                "organisateur":{
+                    "name":"Arkadia",
+                    "link":"https://arkadia.be/"
+                    },
+                "location":{
+                    "nom":"Bruxelles-ville",
+                    "adress":{
+                        "number":"55",
+                        "street":"Rue de la Madeleine",
+                        "town":"Bruxelles-ville",
+                        "postcode":"1000",
+                        "lieudit":"Galerie Bortier"
+                        },
+                    "coordonates":{
+                            "lat": 50.84473367375668, 
+                            "lon": 4.354892897137325
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["fr"]
+            },
+            {
+                "id":"14",
+                "title":"La maison Langbehn + récital de guitare",
+                "description":{
+                    "nl":"Autour du Sablon, plusieurs bâtiments illustrent la réinterprétation libre et éclectique des styles du passé qu’eurent les architectes de la fin du XIXe et du XXe siècle. Vous découvrirez ainsi sous un regard différent, les Musées Royaux des Beaux-Arts, le conservatoire de musique, le square du Petit Sablon et diverses maisons particulières sur la Place du Grand Sablon.La restauration de l’église Notre-Dame du Sablon sera bien entendu évoquée. Un cas d’école pour les adeptes des idées de Viollet-le-Duc que furent Auguste Schoy, Jules-Jacques Van Ysendyck et son fils Maurice Van Ysendyck !",
+                    "fr":"Autour du Sablon, plusieurs bâtiments illustrent la réinterprétation libre et éclectique des styles du passé qu’eurent les architectes de la fin du XIXe et du XXe siècle. Vous découvrirez ainsi sous un regard différent, les Musées Royaux des Beaux-Arts, le conservatoire de musique, le square du Petit Sablon et diverses maisons particulières sur la Place du Grand Sablon.La restauration de l’église Notre-Dame du Sablon sera bien entendu évoquée. Un cas d’école pour les adeptes des idées de Viollet-le-Duc que furent Auguste Schoy, Jules-Jacques Van Ysendyck et son fils Maurice Van Ysendyck !",
+                    "en":"Autour du Sablon, plusieurs bâtiments illustrent la réinterprétation libre et éclectique des styles du passé qu’eurent les architectes de la fin du XIXe et du XXe siècle. Vous découvrirez ainsi sous un regard différent, les Musées Royaux des Beaux-Arts, le conservatoire de musique, le square du Petit Sablon et diverses maisons particulières sur la Place du Grand Sablon.La restauration de l’église Notre-Dame du Sablon sera bien entendu évoquée. Un cas d’école pour les adeptes des idées de Viollet-le-Duc que furent Auguste Schoy, Jules-Jacques Van Ysendyck et son fils Maurice Van Ysendyck !"
+                },
+                "types":[0,4,9],
+                "dates":[2],
+                "horaire":"14:00-15h30",
+                "price":"30",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://arkadia.be/fr/visites/la-maison-langbehn-r-cital-de-guitare"
+                },
+                "illustration":"Arkadia_Maison-Langbehn.jpg",
+                "duration":"1h30",
+                "organisateur":{
+                    "name":"Arkadia",
+                    "link":"https://arkadia.be/"
+                    },
+                "location":{
+                    "nom":"Schaerbeek",
+                    "adress":{
+                        "number":"90-92",
+                        "street":"Rue Renkin   ",
+                        "town":"Schaerbeek",
+                        "postcode":"1030",
+                        "lieudit":"La maison Langbehn"
+                        },
+                    "coordonates":{
+                            "lat": 50.86806656644615,
+                            "lon": 4.370217811091495
+                        }
+                },
+                "public":["all"],
+                "language":["fr"]
+            },
+            {
+                "id":"15",
+                "title":"Langs trage wegen - zuidoost",
+                "description":{
+                    "nl":"Is er een mooiere manier om een Trage Wegen Weekend te vieren dan met een lange wandeling? U gaat met een Brukselgids op stap doorheen het zuidoosten van Brussel, op zoek naar wegen waar het aangenaam wandelen is... of zou kunnen zijn. En, bijna tegen de verwachting in: dat zijn er nogal wat.Van bij het Centraal Station gaat het langs galerijen, groene verbindingen, binnenparken, spoorwegbermen, brede voetpaden, een desolate promenade en een campus richting een metrostation aan de rand van de Groene Wandeling. Telkens bekijken we wat de ruimte comfortabel maakt voor de wandelaar en wat er zou kunnen verbeteren.Stapschoenen komen goed van pas voor deze Thematour, want hij is zeven km lang. !",
+                    "fr":"Is er een mooiere manier om een Trage Wegen Weekend te vieren dan met een lange wandeling? U gaat met een Brukselgids op stap doorheen het zuidoosten van Brussel, op zoek naar wegen waar het aangenaam wandelen is... of zou kunnen zijn. En, bijna tegen de verwachting in: dat zijn er nogal wat.Van bij het Centraal Station gaat het langs galerijen, groene verbindingen, binnenparken, spoorwegbermen, brede voetpaden, een desolate promenade en een campus richting een metrostation aan de rand van de Groene Wandeling. Telkens bekijken we wat de ruimte comfortabel maakt voor de wandelaar en wat er zou kunnen verbeteren.Stapschoenen komen goed van pas voor deze Thematour, want hij is zeven km lang. !",
+                    "en":"Is er een mooiere manier om een Trage Wegen Weekend te vieren dan met een lange wandeling? U gaat met een Brukselgids op stap doorheen het zuidoosten van Brussel, op zoek naar wegen waar het aangenaam wandelen is... of zou kunnen zijn. En, bijna tegen de verwachting in: dat zijn er nogal wat.Van bij het Centraal Station gaat het langs galerijen, groene verbindingen, binnenparken, spoorwegbermen, brede voetpaden, een desolate promenade en een campus richting een metrostation aan de rand van de Groene Wandeling. Telkens bekijken we wat de ruimte comfortabel maakt voor de wandelaar en wat er zou kunnen verbeteren.Stapschoenen komen goed van pas voor deze Thematour, want hij is zeven km lang. !"
+                },
+                "types":[0,2],
+                "dates":[2],
+                "horaire":"13:30-17h30",
+                "price":"12",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://www.brukselbinnenstebuiten.be/event/langs-trage-wegen-zuidoost-2023-10-15-274/register#scrollTop=0"
+                },
+                "illustration":"Bruksel_wandeling.jpg",
+                "duration":"1h30",
+                "organisateur":{
+                    "name":"Brukselbinnenstebuiten",
+                    "link":"https://www.brukselbinnenstebuiten.be/"
+                    },
+                "location":{
+                    "nom":"Bruxelles-ville",
+                    "adress":{
+                        "number":"",
+                        "street":"Europakruispunt",
+                        "town":"Brussel",
+                        "postcode":"1000",
+                        "lieudit":"Bij het Centraal Station, in het midden van het Europakruispunt"
+                        },
+                    "coordonates":{
+                            "lat": 50.84577833136522, 
+                            "lon": 4.356656514875574
+                        }
+                },
+                "public":["all", "children", "adult"],
+                "language":["nl"]
+            },
+            {
+                "id":"16",
+                "title":"Des pâturages et moulins de la Senne ",
+                "description":{
+                    "en":"Peut-on imaginer bouleversement plus radical que la transformation des pâturages de Cureghem en ce petit Birmingham qu’il devint à la suite du creusement du canal de Charleroi ? Nous essaierons de suivre cette évolution, notamment, en retrouvant le passage de la Senne qui, avant 1832, rythmait toute la vie du quartier.",
+                    "fr":"Peut-on imaginer bouleversement plus radical que la transformation des pâturages de Cureghem en ce petit Birmingham qu’il devint à la suite du creusement du canal de Charleroi ? Nous essaierons de suivre cette évolution, notamment, en retrouvant le passage de la Senne qui, avant 1832, rythmait toute la vie du quartier.",
+                    "nl":"Peut-on imaginer bouleversement plus radical que la transformation des pâturages de Cureghem en ce petit Birmingham qu’il devint à la suite du creusement du canal de Charleroi ? Nous essaierons de suivre cette évolution, notamment, en retrouvant le passage de la Senne qui, avant 1832, rythmait toute la vie du quartier."
+                },
+                "types":[0,2],
+                "dates":[1],
+                "horaire":"10:00-14:00",
+                "price":"0",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"+32498588994",
+                    "mail":" activin1070@anderlecht.brussels",
+                    "link":""
+                },
+                "illustration":"16-anderlecht_abords-de-la-senne.jpg",
+                "duration":"4h00",
+                "organisateur":{
+                    "name":"Commune d'Anderlecht",
+                    "link":"https://www.anderlecht.be/"
+                    },
+                "location":{
+                    "nom":"Anderlecht",
+                    "adress":{
+                        "number":"88",
+                        "street":"Rue des vétérinaires",
+                        "town":"Anderlecht",
+                        "postcode":"1070",
+                        "lieudit":"croisement de la rue des Vétérinaires et des Deux Gares."
+                        },
+                    "coordonates":{
+                            "lat": 50.8329288261333,  
+                            "lon": 4.330107544851099
+                        }
+                },
+                "public":["all"],
+                "language":["fr"]
+            },
+            {
+                "id":"17",
+                "title":"Balade de parc en parc",
+                "description":{
+                    "nl":"Organisée dans le cadre du WE des voies lentes, cette promenade en boucle vous permettra d’aller d’un parc anderlechtois à l’autre en empruntant des voies qui ne sont accessibles qu’à pied et parfois aussi à vélo.",
+                    "fr":"Organisée dans le cadre du WE des voies lentes, cette promenade en boucle vous permettra d’aller d’un parc anderlechtois à l’autre en empruntant des voies qui ne sont accessibles qu’à pied et parfois aussi à vélo.",
+                    "en":"Organisée dans le cadre du WE des voies lentes, cette promenade en boucle vous permettra d’aller d’un parc anderlechtois à l’autre en empruntant des voies qui ne sont accessibles qu’à pied et parfois aussi à vélo."
+                },
+                "types":[0,10],
+                "dates":[1],
+                "horaire":"10:00-14h00",
+                "price":"0",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"+32498588994",
+                    "mail":"activin1070@anderlecht.brussels",
+                    "link":""
+                },
+                "illustration":"17-anderlecht_parc-en-parc.jpg",
+                "duration":"1h30",
+                "organisateur":{
+                    "name":"Commune d'Anderlecht",
+                    "link":"https://www.anderlecht.be/"
+                    },
+                "location":{
+                    "nom":"Anderlecht",
+                    "adress":{
+                        "number":"144",
+                        "street":"avenue Marius Renard",
+                        "town":"Anderlecht",
+                        "postcode":"1070",
+                        "lieudit":"Terminus Tram 81"
+                        },
+                    "coordonates":{
+                            "lat": 50.82498913412407, 
+                            "lon": 4.2817084349068635
+                        }
+                },
+                "public":["all"],
+                "language":["fr"]
+            },
+            {
+                "id":"18",
+                "title":"Ontdek de Woluwe met een gids: Van Hof Ter Musschen tot aan het Bronnepark",
+                "description":{
+                    "nl":"Hoewel haar vallei erg verstedelijkt is, stroomt de Woluwe nog grotendeels in open lucht, door heel wat groene gebieden die bewaard zijn gebleven en waarvan sommige zelfs het Natura 2000-statuut hebben vanwege de fauna en flora die erin voorkomen. De Woluwe is uw gids op deze wandeling in Sint-Lambrechts-Woluwe die door verschillende parken, natuurreservaten, bossen en voormalige landelijke gebieden leidt maar die u ook laat kennismaken met een aantal opmerkelijke gebouwen. Onderweg kan u met eigen ogen zien welke concrete projecten de voorbije jaren werden uitgevoerd, zoals het openleggen van de rivier, ingrepen om regenwater beter op te vangen en verschillende restauratiewerkzaamheden. Allemaal dragen ze bij tot een herwaardering van deze uitzonderlijke uithoek van Brussel.",
+                    "fr":"Hoewel haar vallei erg verstedelijkt is, stroomt de Woluwe nog grotendeels in open lucht, door heel wat groene gebieden die bewaard zijn gebleven en waarvan sommige zelfs het Natura 2000-statuut hebben vanwege de fauna en flora die erin voorkomen. De Woluwe is uw gids op deze wandeling in Sint-Lambrechts-Woluwe die door verschillende parken, natuurreservaten, bossen en voormalige landelijke gebieden leidt maar die u ook laat kennismaken met een aantal opmerkelijke gebouwen. Onderweg kan u met eigen ogen zien welke concrete projecten de voorbije jaren werden uitgevoerd, zoals het openleggen van de rivier, ingrepen om regenwater beter op te vangen en verschillende restauratiewerkzaamheden. Allemaal dragen ze bij tot een herwaardering van deze uitzonderlijke uithoek van Brussel.",
+                    "en":"Hoewel haar vallei erg verstedelijkt is, stroomt de Woluwe nog grotendeels in open lucht, door heel wat groene gebieden die bewaard zijn gebleven en waarvan sommige zelfs het Natura 2000-statuut hebben vanwege de fauna en flora die erin voorkomen. De Woluwe is uw gids op deze wandeling in Sint-Lambrechts-Woluwe die door verschillende parken, natuurreservaten, bossen en voormalige landelijke gebieden leidt maar die u ook laat kennismaken met een aantal opmerkelijke gebouwen. Onderweg kan u met eigen ogen zien welke concrete projecten de voorbije jaren werden uitgevoerd, zoals het openleggen van de rivier, ingrepen om regenwater beter op te vangen en verschillende restauratiewerkzaamheden. Allemaal dragen ze bij tot een herwaardering van deze uitzonderlijke uithoek van Brussel."
+                },
+                "types":[0,1],
+                "dates":[2],
+                "horaire":"10:00-12:00",
+                "price":"3",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"+3222061207",
+                    "mail":"contact@coordinatiezenne.be",
+                    "link":""
+                },
+                "illustration":"18-woluwe_zenne.jpg",
+                "duration":"around hh/mm",
+                "organisateur":{
+                    "name":"Coördinatie Zenne",
+                    "link":"https://www.coordinationsenne.be/fr/index.php"
+                    },
+                "location":{
+                    "nom":"Sint-Lambrechts-Woluwe",
+                    "adress":{
+                        "number":"2",
+                        "street":"Emile Vanderveldelaan  ",
+                        "town":"Sint-Lambrechts-Woluwe",
+                        "postcode":"1200",
+                        "lieudit":"Kwak café"
+                        },
+                    "coordonates":{
+                            "lat": 50.84715568198089, 
+                            "lon":  4.440872483572869
+                        }
+                },
+                "public":["all"],
+                "language":["nl"]
+            }
+            ,{
+                "id":"19",
+                "title":"Balade guidée tous public",
+                "description":{
+                    "nl":"Découvrez l’histoire de la danse de manière ludique et interactive en explorant des lieux insolites grâce aux balades guidées Si t’y danses. À l’occasion de l’ouverture du Jardin Hélène de Rudder, un nouveau parcours sera inauguré à Saint-Gilles. Au départ du Centre culturel Jacques Franck la balade Danser les volutes met particulièrement en lumière le matrimoine et le patrimoine Art nouveau de la commune ainsi que ses espaces verts. Au gré du parcours, les liens se tissent entre danse et architecture, individus et collectif dans les rues de la commune aux 140 nationalités.",
+                    "fr":"Découvrez l’histoire de la danse de manière ludique et interactive en explorant des lieux insolites grâce aux balades guidées Si t’y danses. À l’occasion de l’ouverture du Jardin Hélène de Rudder, un nouveau parcours sera inauguré à Saint-Gilles. Au départ du Centre culturel Jacques Franck la balade Danser les volutes met particulièrement en lumière le matrimoine et le patrimoine Art nouveau de la commune ainsi que ses espaces verts. Au gré du parcours, les liens se tissent entre danse et architecture, individus et collectif dans les rues de la commune aux 140 nationalités.",
+                    "en":"Découvrez l’histoire de la danse de manière ludique et interactive en explorant des lieux insolites grâce aux balades guidées Si t’y danses. À l’occasion de l’ouverture du Jardin Hélène de Rudder, un nouveau parcours sera inauguré à Saint-Gilles. Au départ du Centre culturel Jacques Franck la balade Danser les volutes met particulièrement en lumière le matrimoine et le patrimoine Art nouveau de la commune ainsi que ses espaces verts. Au gré du parcours, les liens se tissent entre danse et architecture, individus et collectif dans les rues de la commune aux 140 nationalités."
+                },
+                "types":[0,2,4],
+                "dates":[1],
+                "horaire":"16:00",
+                "price":"0",
+                "booking":true,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":"https://docs.google.com/forms/d/e/1FAIpQLSd2uRpLxH2dY3RizrrQN-2sE57tm3CNp8715k_1uq7UzCx7Jw/viewform"
+                },
+                "illustration":"19-sitydanse.jpg",
+                "Duration":"",
+                "organisateur":{
+                    "name":"Sitydanses",
+                    "link":"https://www.sitydanses.be/2023/09/08/balades-guidees-1410/"
+                    },
+                "location":{
+                    "nom":"Saint-Gilles",
+                    "adress":{
+                        "number":"11",
+                        "street":"Rue de Rome",
+                        "town":"Saint-Gilles",
+                        "postcode":"1060",
+                        "lieudit":""
+                        },
+                    "coordonates":{
+                            "lat": 50.829712539418516,
+                            "lon": 4.3452337105596675
+                        }
+                },
+                "public":["all"],
+                "language":["fr"]
+            },
+            {
+                "id":"20",
+                "title":"Promenade guidée avec le garde-forestier : autour du vallon des Enfants Noyés",
+                "description":{
+                    "nl":"Je vous présenterai tout au long d'une promenade autour du vallon des Enfants Noyés un aperçu historique de la forêt de Soignes, les différentes fonctions qu'elle a été amenée à remplir au cours de son histoire jusqu'à nos jours, ainsi que les objectifs visés par le plan de gestion bruxellois et les défis à relever face au changement climatique. Enfin, en fonction de ce qui nous sera éventuellement possible d'observer, je vous parlerai de sa biodiversité animale et végétale. Au plaisir de vous y rencontrer! Willy Van De Velde - Garde-forestier Durée : +/- 3 h (< 3km) RDV à la 'tour de départ' à côté du 'Village des Paris', en entrant à l'hippodrome par l’entrée principale (chaussée de La Hulpe 53 – 1180 Uccle). Le site est accessible à pied, à vélo et en transports en commun : Tram 8. Gares de Boondael et de Boitsfort à proximité. Parking vélo sur le site",
+                    "fr":"Je vous présenterai tout au long d'une promenade autour du vallon des Enfants Noyés un aperçu historique de la forêt de Soignes, les différentes fonctions qu'elle a été amenée à remplir au cours de son histoire jusqu'à nos jours, ainsi que les objectifs visés par le plan de gestion bruxellois et les défis à relever face au changement climatique. Enfin, en fonction de ce qui nous sera éventuellement possible d'observer, je vous parlerai de sa biodiversité animale et végétale. Au plaisir de vous y rencontrer! Willy Van De Velde - Garde-forestier Durée : +/- 3 h (< 3km) RDV à la 'tour de départ' à côté du 'Village des Paris', en entrant à l'hippodrome par l’entrée principale (chaussée de La Hulpe 53 – 1180 Uccle). Le site est accessible à pied, à vélo et en transports en commun : Tram 8. Gares de Boondael et de Boitsfort à proximité. Parking vélo sur le site",
+                    "en":"Je vous présenterai tout au long d'une promenade autour du vallon des Enfants Noyés un aperçu historique de la forêt de Soignes, les différentes fonctions qu'elle a été amenée à remplir au cours de son histoire jusqu'à nos jours, ainsi que les objectifs visés par le plan de gestion bruxellois et les défis à relever face au changement climatique. Enfin, en fonction de ce qui nous sera éventuellement possible d'observer, je vous parlerai de sa biodiversité animale et végétale. Au plaisir de vous y rencontrer! Willy Van De Velde - Garde-forestier Durée : +/- 3 h (< 3km) RDV à la 'tour de départ' à côté du 'Village des Paris', en entrant à l'hippodrome par l’entrée principale (chaussée de La Hulpe 53 – 1180 Uccle). Le site est accessible à pied, à vélo et en transports en commun : Tram 8. Gares de Boondael et de Boitsfort à proximité. Parking vélo sur le site"
+                },
+                "types":[0,1],
+                "dates":[2],
+                "horaire":"10:00",
+                "price":"0",
+                "booking":false,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":""
+                },
+                "illustration":"20-foretdesoignes-gardeforestier.jpg",
+                "Duration":"3h00",
+                "organisateur":{
+                    "name":"Fondation Forêt de Soignes",
+                    "link":"https://www.foret-de-soignes.be/partenaires/fondation-foret-de-soignes/"
+                    },
+                "location":{
+                    "nom":"",
+                    "adress":{
+                        "number":"53A",
+                        "street":"chaussée de La Hulpe",
+                        "town":"Uccle",
+                        "postcode":"1180",
+                        "lieudit":"Hippodrome de Boitsfort - Drohme Par"
+                        },
+                    "coordonates":{
+                            "lat": 50.79553973116681,
+                            "lon": 4.396580497063688
+                        }
+                },
+                "public":["all"],
+                "language":["fr"]
+            },
+            {
+                "id":"21",
+                "title":"Hippodrome de Boitsfort, 'porte d’accueil' de la forêt de Soignes avec Bruxelles Environnement",
+                "description":{
+                    "nl":"Stéphane Vanwijnsberghe, directeur bruxellois de la forêt de Soignes et Heleen Ochelen, porteuse du projet pour Bruxelles Environnement vous emmènent en balade à l'Hippodrome de Boitsfort pour vous parler de la forêt de Soignes, de sa 'porte d'accueil' et des développements en cours à l'hippodrome.",
+                    "fr":"Stéphane Vanwijnsberghe, directeur bruxellois de la forêt de Soignes et Heleen Ochelen, porteuse du projet pour Bruxelles Environnement vous emmènent en balade à l'Hippodrome de Boitsfort pour vous parler de la forêt de Soignes, de sa 'porte d'accueil' et des développements en cours à l'hippodrome.",
+                    "en":"Stéphane Vanwijnsberghe, directeur bruxellois de la forêt de Soignes et Heleen Ochelen, porteuse du projet pour Bruxelles Environnement vous emmènent en balade à l'Hippodrome de Boitsfort pour vous parler de la forêt de Soignes, de sa 'porte d'accueil' et des développements en cours à l'hippodrome."
+                },
+                "types":[0,1],
+                "dates":[2],
+                "horaire":"14:00",
+                "price":"0",
+                "booking":false,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":""
+                },
+                "illustration":"21-foretdesoignes.jpg",
+                "Duration":"",
+                "organisateur":{
+                    "name":"Fondation Forêt de Soignes",
+                    "link":"https://www.foret-de-soignes.be/partenaires/fondation-foret-de-soignes/"
+                    },
+                "location":{
+                    "nom":"",
+                    "adress":{
+                        "number":"53A",
+                        "street":"Chaussée de la Hulpe",
+                        "town":"Uccle",
+                        "postcode":"1180",
+                        "lieudit":"Hippodrome de Boitsfort - Drohme Park<br>le ‘Village des Paris’ se trouve sur votre droite"
+                        },
+                    "coordonates":{
+                        "lat": 50.79553973116681,
+                        "lon": 4.396580497063688
+                    }
+                },
+                "public":["all"],
+                "language":["fr"]
+            },
+            {
+                "id":"22",
+                "title":"La vallée du Roodkloosterbeek à Auderghem De vallei van de Roodkloosterbeek in Oudergem",
+                "description":{
+                    "nl":"Tijdens deze begeleide wandeling volg je de Roodkloosterbeek, een belangrijke zijloop van de Woluwe. De waterloop dankt zijn naam aan de priorij die meer dan 600 jaar geleden door monniken gesticht werd in het Zoniënwoud. Met veel geduld hebben ze de natte valleigronden ontgonnen en bewerkt. Op de Roodkloostersite en in het Zoniënwoud, ontdek je de oude priorij, maar ook en vooral een rijk hydraulisch en natuurlijk erfgoed: beken, vijvers, moerassen, maar ook de bronnen (sommige memorabel!) die ze voeden, of het gebruik dat de monniken van de priorij van het Rood Klooster in het verleden van dit water maakten.NB : Afspraak : site van de priorij van het Rood Klooster, naast de fontein (Rood-Kloosterstraat 4) - Geen reservering nodig (max. 25 personen)",
+                    "fr":"A l’occasion de cette promenade guidée, nous vous invitons à parcourir la vallée du Roodkloosterbeek (un important affluent de la Woluwe),ruisseau qui doit son nom au prieuré fondé par des moines il y a plus de 6 siècles, qui défrichèrent patiemment ce fond de vallée humide gagné sur la forêt de Soignes. En passant par le site de Rouge-Cloître et la forêt de Soignes, vous découvrirez l’ancien prieuré, mais aussi et surtout un riche patrimoine naturel et hydraulique : ruisseaux, étangs, marais, mais aussi les sources (certaines mémorables !) qui les alimentent, ou encore l’usage que les moines du prieuré de Rouge-Cloître firent de cette eau par le passé.  NB : Départ: site du prieuré de Rouge-Cloître, à côté de la fontaine (rue de Rouge-Cloître 4) - Sans réservation (max. 25 personnes)",
+                    "en":"A l’occasion de cette promenade guidée, nous vous invitons à parcourir la vallée du Roodkloosterbeek (un important affluent de la Woluwe),ruisseau qui doit son nom au prieuré fondé par des moines il y a plus de 6 siècles, qui défrichèrent patiemment ce fond de vallée humide gagné sur la forêt de Soignes. En passant par le site de Rouge-Cloître et la forêt de Soignes, vous découvrirez l’ancien prieuré, mais aussi et surtout un riche patrimoine naturel et hydraulique : ruisseaux, étangs, marais, mais aussi les sources (certaines mémorables !) qui les alimentent, ou encore l’usage que les moines du prieuré de Rouge-Cloître firent de cette eau par le passé.  NB : Départ: site du prieuré de Rouge-Cloître, à côté de la fontaine (rue de Rouge-Cloître 4) - Sans réservation (max. 25 personnes)"
+                },
+                "types":[0,1],
+                "dates":[2],
+                "horaire":"14:00",
+                "price":"0",
+                "booking":false,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":""
+                },
+                "illustration":"22-coordination-senne.jpg",
+                "Duration":"",
+                "organisateur":{
+                    "name":"Fondation Forêt de Soignes",
+                    "link":"https://www.foret-de-soignes.be/partenaires/fondation-foret-de-soignes/"
+                    },
+                "location":{
+                    "nom":"",
+                    "adress":{
+                        "number":"1",
+                        "street":"Rue du Rouge-Cloître",
+                        "town":"Auderghem",
+                        "postcode":"1160",
+                        "lieudit":"Forêt de Soignes - Porte d'accès Rouge-Cloître"
+                        },
+                    "coordonates":{
+                            "lat": 50.81433578070797,
+                            "lon": 4.443717254735547
+                        }
+                },
+                "public":["all"],
+                "language":["fr","nl"]
+            },
+            {
+                "id":"23",
+                "title":"Course à pied avec Foyer vzw",
+                "description":{
+                    "nl":"Foyer vzw voorziet een loopparcours voor iedereen die zich ofwel aan lopen wil wagen, al ervaren is of gewoon mee wil op deze sportieve reis. Onderweg ontdekken we een aantal plaatsen in Brussel waar je met eigen lichaamsgewicht kan trainen en we maken van de gelegenheid gebruik om hier en daar halt te houden voor een paar simpele, maar doeltreffende oefeningen.<br>Je krijgt de kans om op je eigen tempo te lopen in een aangename, energieke en groene omgeving doorheen het Brusselse voetgangersnetwerk.",
+                    "fr":"Foyer vzw propose un parcours de cours à pied pour tous/toutes ceux/celles qui veulent s'initier à cette discipline, qui la pratiquent déjà ou qui tout simplement veulent nous accompagner dans ce parcours sportif. Pendant notre parcours on découvrira quelques points dans la ville de Bruxelles qui sont disposés pour s'entraîner tout en utilisant le poids de son corps; on en profitera pour s'y arrêter et pratiquer quelques exercises simples mais efficaces.<br>En respectant ton propre rythme, tu auras l'opportunité de pratiquer la course à pied dans un ambient conviviale, énergétique et amusant à travers le réseau piéton de Bruxelles.",
+                    "en":"Foyer vzw propose un parcours de cours à pied pour tous/toutes ceux/celles qui veulent s'initier à cette discipline, qui la pratiquent déjà ou qui tout simplement veulent nous accompagner dans ce parcours sportif. Pendant notre parcours on découvrira quelques points dans la ville de Bruxelles qui sont disposés pour s'entraîner tout en utilisant le poids de son corps; on en profitera pour s'y arrêter et pratiquer quelques exercises simples mais efficaces.<br>En respectant ton propre rythme, tu auras l'opportunité de pratiquer la course à pied dans un ambient conviviale, énergétique et amusant à travers le réseau piéton de Bruxelles."
+                },
+                "types":[11,12],
+                "dates":[2],
+                "horaire":"15:00-17:00",
+                "price":"0",
+                "booking":false,
+                "bookinglinks":{
+                    "tel":"",
+                    "mail":"",
+                    "link":""
+                },
+                "illustration":"23-foyervzw.jpg",
+                "Duration":"",
+                "organisateur":{
+                    "name":"Foyer VZW",
+                    "link":"https://www.foyer.be/"
+                    },
+                "location":{
+                    "nom":"",
+                    "adress":{
+                        "number":"527",
+                        "street":"Avenue Louise",
+                        "town":"Ixelles",
+                        "postcode":"1050",
+                        "lieudit":"KBC Brussels La Cambre"
+                        },
+                    "coordonates":{
+                            "lat": 50.81522905080754, 
+                            "lon": 4.371825581723461
+                        }
+                },
+                "public":["all"],
+                "language":["fr","nl","en"]
+            }
+        
+        ]
+    }
+]
